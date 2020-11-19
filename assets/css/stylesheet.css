@@ -1,0 +1,176 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   background-color: #E1EBEE;
+}
+#nav 
+{
+   
+    background-color:#f0f0f0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.493);
+    margin-bottom: 30px;
+}
+#logo
+{
+    width: 28px;
+    height: auto;
+}
+.navbar .navbar-brand
+{
+    font-family: montserrat;
+    font-weight: 600;
+  font-size: 1.6rem; 
+  color: steelblue;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand:hover
+{
+    color: steelblue;
+}
+.navbar .navbar-nav
+{
+    margin: 0 3rem;
+}
+.navbar .nav-item .nav-link
+{
+    font-family: montserrat;
+    font-size: 1.28rem;
+    margin: 0;
+    padding: 0 10px;
+    color: #181818;
+    transition: all 0.28s;
+}
+
+.navbar .nav-item .nav-link:hover
+{
+    color: steelblue;
+}
+.nav-item .dropdown-menu
+{
+    background-color: #f0f0f0;
+    border:none ;  
+    font-family: montserrat; 
+} 
+.nav-item .dropdown-menu .dropdown-item:hover
+{
+    background-color: #add8e6;   
+} 
+body
+{
+    font-family: roboto;
+}
+#container
+{
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.custombtn {
+    color: #494949 !important;
+    font-size: 1.1rem;
+    font-family: roboto;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    background: #f0f0f0;
+    padding: 10px;
+    border: 1.8px solid steelblue !important;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    outline: none;
+    margin: 5px;
+    margin-bottom: 20px;
+    }
+
+.custombtn:hover {
+        color: #ffffff !important;
+        background: #add8e6;
+        text-decoration: none;
+        border-color: rgb(140, 202, 253) !important;
+        transition: all 0.4s ease 0s;
+        }
+#slogan
+{
+    font-family: roboto;
+    font-size: 2.8rem;
+    font-weight: 400;
+    align-self: flex-start;
+}
+
+#btn
+{
+    width: 50%;
+    margin-left: 35px;
+}
+.slogan1
+{
+    font-size: 3.25rem;
+    color: steelblue;
+    font-weight: 600;
+    text-shadow: 1px 2.5px  #f0f0f0ce;
+    
+}
+.carousel-caption .slogans
+{
+    font-size: 1.8rem;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 500;
+    text-shadow: 1px 2px #444444;
+}
+#quote
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-left: 20px ;
+}
+.disimages
+{
+    width: 95%;
+    margin: 30px auto;
+}
+
+.cards
+{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.cards .card
+{
+    color: #f0f0f0;
+    background-color:#4667fa;
+    font-size: 1rem;
+    font-family: montserrat;
+    font-weight: 400;
+    margin:0 auto;
+    border: 1px solid #f0f0f0;
+}
+
+.cards .card .card-title
+{
+    font-size: 1.3rem;
+}
+#left-section
+{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+
+.card-body a{
+    
+    color: #f0f0f0;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.card-body a:hover{
+    color: #232323;
+}

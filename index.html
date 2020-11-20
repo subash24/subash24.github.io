@@ -152,12 +152,12 @@
       <div class="col-lg-6 col-sm-12" style="margin: 30px auto; padding: 0;">
         <div class="shadowl">
           <h2 class="Login">Login</h2>
-          <form>
+          <form action="" method="POST">
             <div class="row">
               <div class="col-md-12">
                 <div class="form-group">
                   <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="lemail" placeholder="Email">
+                  <input  name="email" type="email" class="form-control" id="lemail" placeholder="Email">
                 </div>
               </div>
             </div>
@@ -165,14 +165,13 @@
               <div class="col-md-12">
                 <div class="form-group">
                   <label for="password">Password</label>
-                  <input type="password" class="form-control" id="lpassword" placeholder="Password">
+                  <input name="pass"type="password" class="form-control" id="lpassword" placeholder="Password">
                 </div>
               </div>
             </div>
             <div class="text-center">
-               <button type="submit" class="btn btn-primary"id="cusbtn">Login</button>
+               <button type="submit" name="submit" value="Login" class="btn btn-primary"id="cusbtn">Login</button>
             </div>
-           
           </form>
           </div>
       </div>

@@ -13,7 +13,6 @@ body
    
     background-color:#f0f0f0;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.493);
-    margin-bottom: 30px;
 }
 #logo
 {
@@ -36,16 +35,19 @@ body
 {
     margin: 0 3rem;
 }
+.navbar .nav-item
+{
+    color: #232323;
+}
 .navbar .nav-item .nav-link
 {
     font-family: montserrat;
     font-size: 1.28rem;
-    margin: 0;
-    padding: 0 10px;
-    color: #181818;
+    margin: 0 10px;
+    padding: 0;
+    color: #232323;
     transition: all 0.28s;
 }
-
 .navbar .nav-item .nav-link:hover
 {
     color: steelblue;
@@ -68,7 +70,7 @@ body
 {
     width: 95%;
     height: auto;
-    margin: 20px auto;
+    margin: 50px auto;
     overflow: hidden;
 }
 .custombtn {
@@ -79,7 +81,7 @@ body
     text-align: center;
     text-decoration: none;
     background: #f0f0f0;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1.8px solid steelblue !important;
     border-radius: 30px;
     display: inline-block;
@@ -90,10 +92,10 @@ body
     }
 
 .custombtn:hover {
-        color: #ffffff !important;
-        background: #add8e6;
+        color: #f0f0f0 !important;
+        background: #7CB9E8;
         text-decoration: none;
-        border-color: rgb(140, 202, 253) !important;
+        border-color: #add8e6 !important;
         transition: all 0.4s ease 0s;
         }
 #slogan
@@ -169,8 +171,140 @@ body
     
     color: #f0f0f0;
     font-weight: 600;
+    border-bottom: #f0f0f0;
     transition: all 0.3s;
+    
 }
 .card-body a:hover{
     color: #232323;
+}
+
+body {
+    padding-top: 40px;
+  }
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+
+#nav .navbar-nav li > a {
+	text-transform: capitalize;
+	color: #232323;
+    transition: color .2s;
+}
+#home
+{
+    height:10px;
+}
+#nav .navbar-nav li > a:hover,:focus
+{
+     color: #7CB9E8;
+}
+#nav .navbar-nav li.active > a
+{
+    
+    color: steelblue;
+    border-bottom: 2.5px solid steelblue;
+}
+@media (max-width: 770px) {
+    #nav .navbar-nav li.active > a
+    {
+        
+        color: steelblue;
+        border: none;
+    }   
+}
+hr
+{
+    color: #aac7fc;
+
+}
+.heading
+{
+    font-family: montserrat;
+    font-size: 2.4rem;
+    display: inline-block;
+    color : steelblue;
+    border-bottom:2px solid #444444 ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.customcon
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sub-cover
+{
+    width: 95%;
+    margin: 30px auto;
+    box-shadow: 0 0 8px #add8e6;
+    padding: 15px;
+
+}
+
+.sub-head
+{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #232323;
+    font-family: roboto;
+    font-weight: 400;
+    border-bottom: 2.5px solid #7CB9E8;
+    padding-bottom: 5px;
+}
+.content
+{
+    color: #232323;
+    font-size: 1.3rem;
+    font-family: roboto;
+    text-align: justify;
+    line-height: 2.2rem;
+}
+.sub2
+{
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: 1.4px solid #7CB9E8;
+}
+.con
+{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.sign
+{
+    background-color: #7CB9E8;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    font-family: montserrat;
+    font-weight: 600;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0px;
+}
+form
+{
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 1.2rem;
+    font-family: roboto;   
+}
+.shadow
+{
+    box-shadow: 0  0 2px #444444;
+}
+
+#cusbtn
+{
+    font-family: montserrat;
+    background-color: #6bb9f5;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #f3f3f3;
 }
